@@ -31,7 +31,7 @@ namespace Сапер
                     int random = rand.Next(1, 10);
                     if ((random == 9 || random == 10) && bomb <= 10)
                     {
-                            arr[i, j] = new BombCell(b);
+                            arr[i, j] = new BombCell();
                             b++;
                             bomb++;
                        

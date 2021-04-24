@@ -10,7 +10,7 @@ namespace Сапер
     {
         private char bomb = '*';
 
-        public BombCell(int number):base(number)
+        public BombCell():base()
         {
 
         }
