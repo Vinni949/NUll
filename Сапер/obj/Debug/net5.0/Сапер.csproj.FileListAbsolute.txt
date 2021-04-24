@@ -1,0 +1,16 @@
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.exe
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.deps.json
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.runtimeconfig.json
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.runtimeconfig.dev.json
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.dll
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\ref\Сапер.dll
+C:\Users\pumba\source\repos\Сапер\Сапер\bin\Debug\net5.0\Сапер.pdb
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.csprojAssemblyReference.cache
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.AssemblyInfoInputs.cache
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.AssemblyInfo.cs
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.csproj.CoreCompileInputs.cache
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.dll
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\ref\Сапер.dll
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.pdb
+C:\Users\pumba\source\repos\Сапер\Сапер\obj\Debug\net5.0\Сапер.genruntimeconfig.cache
