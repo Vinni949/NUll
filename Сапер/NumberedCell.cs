@@ -15,6 +15,10 @@ namespace Сапер
             Random rand = new Random();
             number = rand.Next(1, 10);
         }
+        public override int OpenCell()
+        {
+            return number;
+        }
 
         public override void PrintCell()
         {

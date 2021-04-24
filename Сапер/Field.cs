@@ -10,6 +10,7 @@ namespace Сапер
     {
         private int N;
         private Cell [,] arr;
+        private int score = 0;
 
         public Field(int n)
         {
@@ -55,11 +56,13 @@ namespace Сапер
                 }
                 Console.WriteLine();
             }
+            Console.WriteLine(score);
         }
         public void OpenCell(int x,int y)
         {
             arr[x, y].OpenCell();
             PrintField();
+            score += arr[x, y].OpenCell();
         }
         public void Play()
         { int i = 0;

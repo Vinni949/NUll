@@ -14,7 +14,11 @@ namespace Сапер
         {
 
         }
-            
+
+        public override int OpenCell()
+        {
+            return -100;
+        }
 
         public override void PrintCell()
         {
