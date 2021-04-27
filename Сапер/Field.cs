@@ -68,16 +68,25 @@ namespace Сапер
             score += arr[x, y].AddScore();
         }
         public void Play()
-        { int i = 0;
-            while(i==0)
+        { bool i = true;
+            while(i==true)
             {
-                Console.WriteLine("Введите X:");
-                int x = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Введите Y:");
-                int y = Convert.ToInt32(Console.ReadLine());
-                Console.Clear();
-                Score(x, y);
-                OpenCell(x,y);
+                if (score >= 0)
+                {
+                    Console.WriteLine("Введите X:");
+                    int x = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Введите Y:");
+                    int y = Convert.ToInt32(Console.ReadLine());
+                    Console.Clear();
+                    Score(x, y);
+                    OpenCell(x, y);
+                }
+                else
+                {
+                    Console.WriteLine("Game Over!");
+                    Console.ReadKey();
+                    i = false;
+                }
                
             }
         }
