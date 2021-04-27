@@ -77,9 +77,14 @@ namespace Сапер
                     int x = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Введите Y:");
                     int y = Convert.ToInt32(Console.ReadLine());
-                    Console.Clear();
-                    Score(x, y);
-                    OpenCell(x, y);
+                    if (x <= N - 1 && y <= N - 1)
+                    {
+                        Console.Clear();
+                        Score(x, y);
+                        OpenCell(x, y);
+                    }
+                    else
+                        Play();
                 }
                 else
                 {
