@@ -15,9 +15,13 @@ namespace Сапер
             open = false;
             }
         
-        public virtual int OpenCell()
+        public void OpenCell()
         {
             open = true;
+
+        }
+        public virtual int AddScore()
+        {
             return 0;
         }
         public virtual void PrintCell()

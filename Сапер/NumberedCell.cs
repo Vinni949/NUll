@@ -15,7 +15,10 @@ namespace Сапер
             Random rand = new Random();
             number = rand.Next(1, 10);
         }
-        public override int OpenCell()
+        public void OpenCell()
+        {
+        }
+        public override int AddScore()
         {
             return number;
         }
@@ -28,6 +31,7 @@ namespace Сапер
             }
             else
                 Console.Write('#' + "   ");
+
         }
     }
 }

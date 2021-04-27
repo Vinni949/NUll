@@ -15,11 +15,13 @@ namespace Сапер
 
         }
 
-        public override int OpenCell()
+        public void OpenCell()
+        {
+        }
+        public override int AddScore()
         {
             return -100;
         }
-
         public override void PrintCell()
         {
             if (open == true)

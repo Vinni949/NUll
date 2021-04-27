@@ -62,7 +62,10 @@ namespace Сапер
         {
             arr[x, y].OpenCell();
             PrintField();
-            score += arr[x, y].OpenCell();
+        }
+        public void Score(int x,int y)
+        {
+            score += arr[x, y].AddScore();
         }
         public void Play()
         { int i = 0;
@@ -73,7 +76,9 @@ namespace Сапер
                 Console.WriteLine("Введите Y:");
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
+                Score(x, y);
                 OpenCell(x,y);
+               
             }
         }
     }
