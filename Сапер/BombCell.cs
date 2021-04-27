@@ -20,7 +20,15 @@ namespace Сапер
         }
         public override int AddScore()
         {
-            return -100;
+            Random rand = new Random();
+            int number = rand.Next(1, 10);
+            if (number == 10)
+            { return -100; }
+            else if (number == 6 || number == 3)
+            { return -10; }
+            else
+                return -10;
+
         }
         public override void PrintCell()
         {
